@@ -6,10 +6,11 @@
   "author": "chankruze <chankruze@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "jest --coverage",
-    "start" : "node index.js"
+    "test": "jest --watchAll --verbose",
+    "start": "node index.js"
   },
   "devDependencies": {
+    "@types/jest": "^26.0.24",
     "jest": "^27.0.6"
   }
 }

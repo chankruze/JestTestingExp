@@ -39,3 +39,13 @@ describe("my beverage", () => {
     expect(myBeverage.sour).toBeFalsy();
   });
 });
+
+describe("not.arrayContaining", () => {
+  const expected = ["Samantha"];
+
+  it("matches if the actual array does not contain the expected elements", () => {
+    expect(["Alice", "Bob", "Eve"]).toEqual(
+      expect.not.arrayContaining(expected)
+    );
+  });
+});
