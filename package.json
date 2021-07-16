@@ -1,0 +1,15 @@
+{
+  "name": "jest-testing-exp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:chankruze/JestTestingExp.git",
+  "author": "chankruze <chankruze@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --coverage",
+    "start" : "node index.js"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
